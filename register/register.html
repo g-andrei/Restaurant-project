@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/register.css" />
+    <script src="./../helpers/back.js" defer></script>
+    <script src="./script/register.js" defer></script>
+    <title>Fesco | Sign up</title>
+  </head>
+  <body>
+    <section>
+      <aside class="login-image-section">
+        <h1 class="login-quote">
+          We all eat, an it would be a sad waste of opportunity to eat badly.
+        </h1>
+        <p><q>Anna Thomas</q></p>
+      </aside>
+
+      <div class="form-container">
+        <header>
+          <button class="back-button">&larr;</button>
+          <button class="register-button">
+            <a href="./../login/login.html">Login</a>
+          </button>
+        </header>
+        <div class="logo-container">
+          <img
+            src="./../assets/logo/logo.png"
+            alt="logo-restaurant"
+            class="logo"
+          />
+        </div>
+        <form>
+          <h1>Sign up</h1>
+          <p>Sign up for the best culinary experience!</p>
+
+          <label for="firstName">First name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Type your first name"
+            required
+          />
+
+          <label for="lastName">Last name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Type your last name"
+            required
+          />
+
+          <label for="userName">User name</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            placeholder="Type your user name"
+            required
+          />
+
+          <label for="phoneNumber">Phone number</label>
+          <input
+            type="tel"
+            name="phoneNumber"
+            id="phoneNumber"
+            placeholder="Format: 07xxxxxxxx"
+            pattern="[0]{1}[7]{1}[0-9]{8}"
+            required
+          />
+
+          <label for="street">Street</label>
+          <input
+            type="text"
+            name="street"
+            id="street"
+            placeholder="Type your street"
+            required
+          />
+
+          <label for="numberOfBuilding">No.</label>
+          <input
+            type="number"
+            name="numberOfBuilding"
+            id="numberOfBuilding"
+            placeholder="Type your number of building"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Type your email"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Type your passwor"
+            required
+          />
+
+          <label for="confirmPassword">Confirm your password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="Confirm your password"
+            required
+          />
+
+          <button id="signUpButton">Sign up</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/myStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="./script/index.js" defer></script>
+    <script src="./script/reservation.js" defer></script>
+    <script src="./script/backToTop.js" defer></script>
+
+    <title>Fesco | Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex alitem-center">
+            <img
+              src="./assets/logo/logo.png"
+              alt="logo-restaurant"
+              class="logo"
+            />
+
+            <div class="buttons">
+              <a href="#about-us" class="about-us">About Us</a>
+              <a href="#our-menu" class="menu">Menu</a>
+              <a href="#book-a-table" class="reservation">Reservation</a>
+              <a href="#contact" class="contact">Contact</a>
+              <span class="login-register-container">
+                <a href="./login/login.html" class="login">Login</a>
+                <a href="./register/register.html" class="register">Register</a>
+              </span>
+              <span class="after-login">
+                <a href="#" class="log-out">Log Out</a>
+                <a href="./history/history.html" class="history">History</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <hr style="width: 100%; color: #fff" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <div class="title-section">
+              <img
+                src="./assets/pictures/cerealImg.png"
+                alt="cereals"
+                class="cereals-img"
+              />
+              <h1 class="title-header">Making Food Taste Better.</h1>
+              <h2 class="secound-title-header">Italian Specialities</h2>
+              <p class="text-header">
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia Curae
+              </p>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="contact-container" id="contact">
+              <h1 class="contact-title">Contact</h1>
+              <p class="contact-description">
+                Vestibulum ante ipsum primis in faucibus orciluctus et ultrices
+                posuere cubilia.
+              </p>
+
+              <p class="address-title">address:</p>
+
+              <p class="address-description">
+                17 Awesome Street, Belgrade <br />
+                SR 877900
+              </p>
+
+              <button class="view-map-button">view map</button>
+              <div class="line-under-map-button"></div>
+
+              <p class="hours-title">opening hours:</p>
+              <p class="hours-description">
+                Monday - Friday........................8:00am - 11:00 pm <br />
+                Saturday - Sunday......................8:00am - 10:00 pm
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="about-us-text-section">
+            <div class="col-6">
+              <h1 class="about-us-title">About Us</h1>
+
+              <p class="about-us-paragraph">
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia Curae.
+              </p>
+
+              <p class="about-us-paragraph">
+                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+                amet ligula. Nulla porttitor accumsan tincidunt. Curabitur
+                aliquet quam id dui posuere blandit. Curabitur arcu erat,
+                accumsan id imperdiet et, porttitor at sem. Pellentesque in
+                ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Curabitur aliquet quam id dui
+                posuere blandit. Vivamus magna justo, lacinia eget consectetur
+                sed, convallis at tellus. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui. Cras ultricies ligula sed
+                magna dictum porta.
+              </p>
+
+              <p class="about-us-paragraph">
+                Curabitur aliquet quam id dui posuere blandit. Vivamus magna
+                justo, lacinia eget consectetur sed, dictum porta.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <img
+              src="./assets/pictures/breadPiture.jpg"
+              alt="bread"
+              class="about-us-picture"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-specialities">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="our-specialities-title">Our Specialities</h1>
+
+            <p class="our-specialities-paragraph">
+              Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+              amet ligula. Nulla port or accumsan tincidunt.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <div class="first-specialities">
+              <img
+                src="./assets/pictures/lasagnaSpecialities.jpeg"
+                alt=""
+                class="specialities-image-container"
+              />
+              <div class="name-and-price">
+                <p class="name-and-price-description">
+                  Lasagna ............... 17.99$
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="first-specialities">
+              <img
+                src="./assets/pictures/pizzaSpecialities.jpeg"
+                alt=""
+                class="specialities-image-container"
+              />
+              <div class="name-and-price">
+                <p class="name-and-price-description">
+                  Pizza ............... 12.99$
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="first-specialities">
+              <img
+                src="./assets/pictures/slmonSpecialities.jpeg"
+                alt=""
+                class="specialities-image-container"
+              />
+              <div class="name-and-price">
+                <p class="name-and-price-description">
+                  Salmon ............... 23.99$
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="first-specialities">
+              <img
+                src="./assets/pictures/pastaSpecialities.jpeg"
+                alt=""
+                class="specialities-image-container"
+              />
+              <div class="name-and-price">
+                <p class="name-and-price-description">
+                  Pasta ............... 13.99$
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-menu" id="our-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="menu-intro">
+              <h1 class="our-menu-title">Our Menu</h1>
+              <div class="menu-paragraph">
+                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+                amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h1 class="menu-title">..........PIZZA..........</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <p class="name-of-food">mexicana</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">margherita</p>
+
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">hawaian</p>
+
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+          </div>
+          <div class="col-2">
+            <p class="price-of-food">$19</p>
+
+            <p class="price-of-food">$16</p>
+
+            <p class="price-of-food">$18</p>
+          </div>
+
+          <div class="col-4">
+            <p class="name-of-food">mexicana</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">margherita</p>
+
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">hawaian</p>
+
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="price-of-food">$19</p>
+
+            <p class="price-of-food">$16</p>
+
+            <p class="price-of-food">$18</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h1 class="menu-title">..........DESSERTS..........</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <p class="name-of-food">mexicana</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">margherita</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">hawaian</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="price-of-food">$7</p>
+
+            <p class="price-of-food">$11</p>
+
+            <p class="price-of-food">$13</p>
+          </div>
+
+          <div class="col-4">
+            <p class="name-of-food">mexicana</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">margherita</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+
+            <p class="name-of-food">hawaian</p>
+            <p class="food-description">
+              Donec velit neque, auctor sit amet aliquam vel ullamcorper sit
+              amet ligula.............................
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="price-of-food">$19</p>
+
+            <p class="price-of-food">$16</p>
+
+            <p class="price-of-food">$18</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <button class="view-all-menu-button">View All Menu</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book-a-table" id="book-a-table">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="book-a-table-title">Book a Table</h1>
+
+            <p class="book-a-table-paragraph">
+              Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+              amet ligula.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <label for="date-for-reservation" class="choose-date-time-nr-people"
+              >chose a date</label
+            >
+            <input
+              type="date"
+              name="date-for-reservation"
+              id="date-for-reservation"
+              class="inptu-time"
+            />
+          </div>
+
+          <div class="col-4">
+            <label for="hour-for-reservation" class="choose-date-time-nr-people"
+              >chose a time</label
+            >
+            <select
+              id="hour-for-reservation"
+              name="hour-for-reservation"
+              class="input-hour"
+            >
+              <option value="3:00">3:00 pm</option>
+              <option value="4:00">4:00 pm</option>
+              <option value="5:00">5:00 pm</option>
+              <option value="6:00">6:00 pm</option>
+              <option value="7:00">7:00 pm</option>
+              <option value="8:00">8:00 pm</option>
+              <option value="9:00">9:00 pm</option>
+            </select>
+          </div>
+
+          <div class="col-4">
+            <label
+              for="number-of-people-reservation"
+              class="choose-date-time-nr-people"
+              >number of people</label
+            >
+            <select
+              id="number-of-people-reservation"
+              name="number-of-people-reservation"
+              class="input-people"
+            >
+              <option value="4">4 People</option>
+              <option value="5">5 People</option>
+              <option value="6">6 People</option>
+              <option value="7">7 People</option>
+              <option value="8">8 People</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <button class="book-now">Book now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <h2 class="footer-titles">address</h2>
+            <p class="footer-paragraph">
+              17 Awesome Street, Belgrade <br />
+              SR 877900
+            </p>
+            <button class="view-map">view map</button>
+          </div>
+
+          <div class="col-6">
+            <h2 class="footer-titles">opening hours:</h2>
+            <p class="footer-paragraph">
+              Monday -
+              Friday.......................................................8:00am
+              - 11:00 pm <br />
+              Saturday -
+              Sunday.....................................................8:00am
+              - 10:00 pm
+            </p>
+            <button class="table-reservation">Table Reservation</button>
+          </div>
+
+          <div class="col-3">
+            <h2 class="footer-titles">we are social</h2>
+            <p class="footer-paragraph">
+              Fell free to chek out social media <br />
+              pages
+            </p>
+            <div>
+              <a href="#" class="fa fa-facebook social-buttons"></a>
+              <a href="#" class="fa fa-instagram social-buttons"></a>
+              <a href="#" class="fa fa-twitter social-buttons"></a>
+              <a href="#" class="fa fa-youtube social-buttons"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button id="back-to-top">&#8679;</button>
+  </body>
+</html>

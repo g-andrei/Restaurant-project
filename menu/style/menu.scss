@@ -1,0 +1,43 @@
+@import "./../../style/defCss";
+@import "./../../style/fonts";
+
+body {
+  .menu-title {
+    text-align: center;
+  }
+  .menu-container {
+    display: flex;
+
+    .product-type {
+      .type-title {
+        text-align: center;
+        font-family: yesteryear;
+        font-size: 32px;
+
+        &:first-letter {
+          text-transform: uppercase;
+        }
+      }
+
+      .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .product {
+          width: 50%;
+          display: flex;
+          flex-direction: row-reverse;
+
+          .product-info-container {
+            width: 80%;
+          }
+
+          .price {
+            padding-top: 35px;
+          }
+        }
+      }
+    }
+  }
+}

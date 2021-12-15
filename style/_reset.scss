@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+//   box-sizing: border-box;
+}
+
+nav,
+header,
+footer {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/login.css" />
+    <script src="./../helpers/back.js" defer></script>
+    <script src="./script/login.js" defer></script>
+    <title>Fesco | Login</title>
+  </head>
+  <body>
+    <section>
+      <div class="form-container">
+        <header>
+          <button class="back-button">&larr;</button>
+          <button class="register-button">
+            <a href="./../register/register.html">Register</a>
+          </button>
+        </header>
+        <div class="logo-container">
+          <img
+            src="./../assets/logo/logo.png"
+            alt="logo-restaurant"
+            class="logo"
+          />
+        </div>
+        <form>
+          <h1>Login</h1>
+          <p>
+            Wolcome! Please fill username and password to sign in into your
+            account.
+          </p>
+          <label for="text">User</label>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Type your user name"
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Type your passwor"
+          />
+          <button id="login_button">Login now</button>
+        </form>
+      </div>
+      <aside class="login-image-section">
+        <h1 class="login-quote">
+          You don't need a silver fork to eat good food.
+        </h1>
+        <p><q>paul prudhomme</q></p>
+      </aside>
+    </section>
+
+  </body>
+</html>

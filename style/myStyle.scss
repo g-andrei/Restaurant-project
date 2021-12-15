@@ -1,0 +1,456 @@
+@import "../style/reset";
+@import "defCss";
+@import "typography";
+
+/*  ######################################## HEADER ########################################*/
+header {
+  background-image: url(../assets/pictures/header-img2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  box-shadow: inset 0 0 0 400px rgba(76, 72, 72, 0.301);
+}
+
+.logo {
+  width: 200px;
+}
+
+.buttons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  float: right;
+  margin: auto 0 auto auto;
+}
+
+.home,
+.about-us,
+.menu,
+.reservation,
+.contact,
+.login,
+.register,
+.log-out,
+.history {
+  margin-left: 15px;
+  font-size: 15px;
+  color: #fff;
+  font-family: vollkorn;
+}
+
+.title-section {
+  text-align: center;
+}
+
+.cereals-img {
+  width: 50px;
+  margin-top: 140px;
+}
+
+.title-header {
+  font-family: yesteryear;
+  font-size: 56px;
+  color: $base-color;
+  text-align: left;
+  margin-top: 65px;
+}
+
+.secound-title-header {
+  font-family: vollkorn;
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.text-header {
+  font-family: vollkorn;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 60px;
+  text-align: left;
+}
+
+/*  ######################################## CONTACT INFO ########################################*/
+
+.contact-title {
+  font-family: vollkorn;
+  font-size: 25px;
+  padding-top: 30px;
+  color: $base-color;
+  margin-left: 30px;
+}
+
+.contact-description {
+  margin: 22px 60px 0 30px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.address-title,
+.hours-title {
+  font-size: 18px;
+  font-family: raleway;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 24px 60px 0 30px;
+}
+
+.address-description,
+.hours-description {
+  color: white;
+  font-size: 13px;
+  margin: 18px 60px 0 30px;
+}
+
+.address-description {
+  line-height: 1.5;
+}
+
+.hours-description {
+  line-height: 2;
+}
+
+.view-map-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: vollkorn;
+  font-size: 14px;
+  color: $base-color;
+  margin: 15px 0 0 30px;
+}
+
+.line-under-map-button {
+  height: 1px;
+  width: 18%;
+  background-color: $base-color;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.contact-container {
+  position: relative;
+  top: 450px;
+  left: 153px;
+  width: 380px;
+  height: 420px;
+  background-color: $secundary-color;
+  /* margin: 450px 0 auto auto; */
+}
+
+/*  ######################################## ABOUT  ########################################*/
+
+.about-us-text-section {
+  text-align: center;
+  margin-right: -400px;
+}
+
+.about-us-title {
+  font-family: yesteryear;
+  font-size: 55px;
+  color: $base-color;
+  margin-top: 117px;
+}
+
+.about-us-paragraph {
+  font-family: raleway;
+  font-size: 15px;
+  color: #808080;
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.about-us-picture {
+  width: 380px;
+  margin: 250px 0 42px 0;
+}
+
+/*  ######################################## OUR SPECIALITIES  ########################################*/
+
+.our-specialities {
+  width: 100%;
+  height: 600px;
+  background-image: url(../assets/pictures/header-img.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 400px rgba(76, 72, 72, 0.4);
+}
+
+.our-specialities-title {
+  margin-top: 65px;
+  font-size: 57px;
+  font-family: yesteryear;
+  color: #fff;
+  text-align: center;
+}
+
+.our-specialities-paragraph {
+  margin-top: 25px;
+  font-size: 18px;
+  font-family: vollkorn;
+  color: #fff;
+  text-align: center;
+}
+
+.specialities-image-container {
+  width: 220px;
+  height: 190px;
+  padding-top: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name-and-price {
+  background-color: #fff;
+  width: 220px;
+  height: 60px;
+  margin-top: -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-and-price-description {
+  font-size: 15px;
+  font-family: vollkorn;
+  color: $base-color;
+}
+
+/*  ######################################## OUR MENU  ########################################*/
+
+.our-menu {
+  background-color: $secundary-color;
+}
+
+.our-menu-title {
+  font-family: yesteryear;
+  font-size: 55px;
+  color: $base-color;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.menu-paragraph {
+  margin-top: 25px;
+  font-size: 18px;
+  font-family: vollkorn;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-title {
+  margin-top: 75px;
+  font-size: 25px;
+  font-family: raleway;
+  color: $base-color;
+  text-align: center;
+}
+
+.name-of-food:nth-child(1) {
+  margin-top: 75px;
+  font-size: 18px;
+  font-family: raleway;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.name-of-food {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: raleway;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.food-description {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: vollkorn;
+  color: #fff;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.price-of-food:nth-child(1) {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-family: raleway;
+  color: $base-color;
+  text-align: center;
+}
+
+.price-of-food {
+  padding-top: 75px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-family: raleway;
+  color: $base-color;
+  text-align: center;
+}
+
+.view-all-menu-button {
+  display: block;
+  margin: 85px auto 70px auto;
+  width: 200px;
+  height: 55px;
+  background-color: $base-color;
+  border: 0;
+  color: #151824;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid $base-color;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.view-all-menu-button:hover {
+  background-color: $secundary-color;
+  color: $base-color;
+}
+
+/*  ######################################## BOOK A TABLE  ########################################*/
+
+.book-a-table {
+  background-image: url(../assets/pictures/bookATablepicture.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 400px rgba(76, 72, 72, 0.301);
+}
+
+.book-a-table-title {
+  font-family: yesteryear;
+  font-size: 55px;
+  color: #fff;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.book-a-table-paragraph {
+  margin-top: 40px;
+  margin: 40px 0 75px 0;
+  font-family: vollkorn;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.choose-date-time-nr-people {
+  font-family: raleway;
+  font-size: 15px;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.inptu-time,
+.input-hour,
+.input-people {
+  width: 300px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: raleway;
+  padding-left: 25px;
+}
+
+.book-now {
+  display: block;
+  margin: 28px auto 65px auto;
+  padding: 15px 50px;
+  background-color: $base-color;
+  border: 0;
+  color: $secundary-color;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid $base-color;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.book-now:hover {
+  background-color: $secundary-color;
+  color: $base-color;
+}
+
+footer {
+  background-color: $secundary-color;
+  color: #fff;
+}
+
+.footer-titles {
+  font-size: 20px;
+  font-family: raleway;
+  margin: 40px 0 30px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-paragraph {
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.view-map {
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid $base-color;
+  font-size: 14px;
+  padding: 14px 40px;
+  margin-bottom: 50px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.table-reservation {
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid $base-color;
+  font-size: 14px;
+  padding: 14px 40px;
+  margin-bottom: 50px;
+  transition: background-color 0.5s, color 0.5s;
+}
+.social-buttons {
+  color: #fff;
+  text-align: center;
+  border: 2px solid $base-color;
+  font-size: 20px !important;
+  padding: 14px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  margin-bottom: 50px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.view-map:hover,
+.table-reservation:hover,
+.social-buttons:hover {
+  background-color: $base-color;
+  color: $secundary-color;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size:20px;
+  border: none;
+  outline: none;
+  background-color: $base-color;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}

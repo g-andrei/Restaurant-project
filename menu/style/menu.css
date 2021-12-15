@@ -1,0 +1,185 @@
+@font-face {
+  src: url(../assets/fonts/Raleway-Italic-VariableFont_wght.ttf);
+  font-family: raleway-italic;
+}
+
+@font-face {
+  src: url(../assets/fonts/Raleway-VariableFont_wght.ttf);
+  font-family: raleway;
+}
+
+@font-face {
+  src: url(../assets/fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+  font-family: vollkorn-italic;
+}
+
+@font-face {
+  src: url(../assets/fonts/Vollkorn-VariableFont_wght.ttf);
+  font-family: vollkorn;
+}
+
+@font-face {
+  src: url(../assets/fonts/Yesteryear-Regular.ttf);
+  font-family: yesteryear;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.alitem-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 1080px;
+  padding: 0 50px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@font-face {
+  src: url(../assets/fonts/Raleway-Italic-VariableFont_wght.ttf);
+  font-family: raleway-italic;
+}
+
+@font-face {
+  src: url(../assets/fonts/Raleway-VariableFont_wght.ttf);
+  font-family: raleway;
+}
+
+@font-face {
+  src: url(../assets/fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+  font-family: vollkorn-italic;
+}
+
+@font-face {
+  src: url(../assets/fonts/Vollkorn-VariableFont_wght.ttf);
+  font-family: vollkorn;
+}
+
+@font-face {
+  src: url(../assets/fonts/Yesteryear-Regular.ttf);
+  font-family: yesteryear;
+}
+
+body .menu-title {
+  text-align: center;
+}
+
+body .menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .menu-container .product-type .type-title {
+  text-align: center;
+  font-family: yesteryear;
+  font-size: 32px;
+}
+
+body .menu-container .product-type .type-title:first-letter {
+  text-transform: uppercase;
+}
+
+body .menu-container .product-type .product-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .menu-container .product-type .product-container .product {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body .menu-container .product-type .product-container .product .product-info-container {
+  width: 80%;
+}
+
+body .menu-container .product-type .product-container .product .price {
+  padding-top: 35px;
+}
+/*# sourceMappingURL=menu.css.map */
